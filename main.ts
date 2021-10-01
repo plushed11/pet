@@ -7,6 +7,7 @@ input.onButtonPressed(Button.B, function () {
     soundExpression.yawn.playUntilDone()
     basic.showIcon(IconNames.Asleep)
     soundExpression.giggle.playUntilDone()
+    basic.showIcon(IconNames.Happy)
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Confused)
